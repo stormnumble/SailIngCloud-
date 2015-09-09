@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "layout",
-        "hh@0.0.1"
+        "layout"
     ],
     "pluginsConfig": {
         "layout": {
