@@ -1,10 +1,8 @@
 {
-    "plugins": [
-        "layout"
-    ],
-    "pluginsConfig": {
+     "plugins": ["layout"],
+     "pluginsConfig": {
         "layout": {
-            "headerPath": "layouts/header.html"
+            "headerPath" : "layouts/header.html"
         }
     }
 }
