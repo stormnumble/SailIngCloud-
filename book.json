@@ -1,6 +1,8 @@
 {
-    "plugins": [
-        "layout@0.0.1"
-    ],
-    "pluginsConfig": {}
+    "plugins": ["layout"],
+     "pluginsConfig": {
+        "layout": {
+            "headerPath" : "layouts/header.html"
+        }
+    }
 }
