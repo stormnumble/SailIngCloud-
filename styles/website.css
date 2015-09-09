@@ -1,1 +1,122 @@
 /* CSS for website */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+    -webkit-font-smoothing: antialiased
+}
+
+a {
+    text-decoration: none
+}
+
+html,
+body {
+    height: 100%
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding-top:72px;
+}
+
+/*.navbar-fixed-top {
+    height: 72px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(0,0,0);
+    width: 100%;
+    z-index: 100;
+}
+.navbar-fixed-top .container{
+    height: 72px;
+    padding: 12px 0px;
+}
+
+.container .nav{
+    height: 72px;
+    float: right;
+    width: 900px;
+    text-align: right;
+}*/
+.header{
+    height: 72px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(0,0,0);
+    width: 100%;
+    z-index: 10;
+}
+.logo{
+    height: 38px;
+    float: left;
+    padding-left: 10px;
+    width: 80px;
+}
+.logo .title{
+    display: block;
+    height: 38px;
+    width: 200px;
+    background: url(../content/sailing.png) 0px 0px no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.header .container{
+    position: relative;
+    height: 72px;
+    padding: 17px 0px;
+}
+header ~ .book{
+    border-top: auto solid transparent;
+}
+.container .nav{
+    height: 38px;
+    float: right;
+    width: 900px;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+}
+.nav .nav_item{
+    display: inline-block;
+    height: 18px;
+    width: 120px;
+    line-height: 18px;
+    padding: 10px 0px;
+    text-align: center;
+}
+.nav .nav_item a{
+    color: #fff;
+    cursor: pointer;
+}
+.nav .nav_item.on a{
+    color: #03a9f4;
+    cursor: pointer;
+}
+.nav .nav_item.on a:hover{
+    color: #03a9f4;
+}
+
+.nav .nav_item a:hover{
+    color: #e1e1e1;
+}
